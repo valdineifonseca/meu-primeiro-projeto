@@ -2,4 +2,4 @@ language: java
 jdk:
  - oraclejdk8 
 
-fix: git update-index --chmod=+x mvnw 
+before_install: chmod + x mvnw 
